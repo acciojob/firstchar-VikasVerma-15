@@ -1,5 +1,9 @@
 function firstChar(text) {
   // your code here
+ if (!text) return "";
+  
+  const str = text.trim();
+  return str ? str[0] : "";
 }
 
 // Do not change the code below
