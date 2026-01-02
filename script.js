@@ -1,12 +1,6 @@
 function firstChar(text) {
-  if (!text) return '';
-
-  for (let i = 0; i < text.length; i++) {
-    if (text[i] !== ' ') {
-      return text[i];
-    }
-  }
-  return '';
+  let trimtext=text.trim();
+	return trimtext.charAt(0);
 }
 
 
